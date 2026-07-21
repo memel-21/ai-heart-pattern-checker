@@ -1014,6 +1014,7 @@ with calc_col_1:
         "Normal: 70-100 mmHg",
         help=TOOLTIPS["map"],
     )
+    st.caption("Average pressure in the arteries during one heartbeat.")
     render_badge(*classify_value(map_val, "map"))
 with calc_col_2:
     st.metric(
@@ -1022,6 +1023,7 @@ with calc_col_2:
         "Normal: 30-50 mmHg",
         help=TOOLTIPS["pulse_pressure"],
     )
+    st.caption("Difference between systolic and diastolic blood pressure.")
     render_badge(*classify_value(pulse_pressure, "pulse_pressure"))
 
 section_title("", "Health Range Overview", TOOLTIPS["range_overview"])
