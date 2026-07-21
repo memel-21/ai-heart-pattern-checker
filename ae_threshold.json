@@ -1,0 +1,31 @@
+{
+    "model_name": "AE_8_High_Capacity",
+    "threshold_strategy": "mean_plus_2_std_training_reconstruction_error",
+    "threshold": 6.660486963612415e-05,
+    "mean_error": 2.683058835106532e-05,
+    "std_error": 1.9887140642529416e-05,
+    "features": [
+        "Heart_Rate",
+        "Temperature",
+        "Systolic_BP",
+        "Diastolic_BP",
+        "MAP",
+        "Pulse_Pressure"
+    ],
+    "test_metrics": {
+        "accuracy": 0.565,
+        "precision": 0.5942028985507246,
+        "recall": 0.7256637168141593,
+        "f1_score": 0.6533864541832669
+    },
+    "confusion_matrix": [
+        [
+            31,
+            56
+        ],
+        [
+            31,
+            82
+        ]
+    ]
+}
