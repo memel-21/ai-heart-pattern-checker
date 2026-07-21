@@ -567,9 +567,9 @@ st.markdown(
     .stDialog .section-title,
     .stDialog .section-title span {
         background: none !important;
-        color: #ffffff !important;
-        -webkit-text-fill-color: #ffffff !important;
-        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+        color: #0a1628 !important;
+        -webkit-text-fill-color: #0a1628 !important;
+        text-shadow: none !important;
     }
 
     .stDialog .section-title::after {
@@ -610,6 +610,27 @@ st.markdown(
     .stDialog [data-testid="stMetric"] [data-testid="stMetricDelta"] {
         color: #2d3748 !important;
         font-weight: 600 !important;
+    }
+
+    .stDialog p,
+    .stDialog li,
+    .stDialog [data-testid="stMarkdownContainer"],
+    .stDialog [data-testid="stMarkdownContainer"] * {
+        color: #102033 !important;
+        -webkit-text-fill-color: #102033 !important;
+        text-shadow: none !important;
+    }
+
+    .stDialog .section-title .info-tip,
+    .stDialog .section-title .info-tip * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .stDialog .section-title .info-tip .tooltip-text,
+    .stDialog .section-title .info-tip .tooltip-text * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
     }
 
     /* Make badge text more visible */
